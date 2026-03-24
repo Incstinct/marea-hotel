@@ -46,7 +46,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-200 ${navBg}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-0 ${navBg}`}>
 
       {/* Top navbar */}
       <div className="max-w-6xl mx-auto px-6">
