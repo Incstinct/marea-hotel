@@ -32,7 +32,7 @@ export default function Navbar() {
     return () => subscription.unsubscribe();
   }, []);
 
-  const transparent = isHome && !scrolled;
+  const transparent = isHome && !scrolled && !menuOpen;
   const navBg = transparent ? "bg-transparent" : "bg-[#faf7f2] border-b border-[#e0d8cc]";
   const textColor = transparent ? "text-white" : "text-[#1a1a1a]";
   const borderColor = transparent ? "border-white/50" : "border-[#c4845a]";
