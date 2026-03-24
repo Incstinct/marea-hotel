@@ -18,7 +18,7 @@ export default function Home() {
       {/* Hero — full screen image, no text */}
       <section className="relative h-screen w-full overflow-hidden">
         <img
-          src="https://media.discordapp.net/attachments/505650035288178689/1484314690099216516/content.png?ex=69c11307&is=69bfc187&hm=88620ecfc02c9b21228e4d243a9402e2f9f95c1c2e9d98a0b6f9f71276006413&=&format=webp&quality=lossless"
+          src="/beach.png"
           alt="Marea beachside resort"
           className="w-full h-full object-cover"
         />
@@ -125,7 +125,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-px bg-[#e0d8cc]">
             {amenities.map((item) => (
               <div key={item.number} className="bg-[#f0ebe1] p-8 md:p-10 flex flex-col gap-4">
-                <span className="text-xs tracking-[0.3em] text-[#e0d8cc]">{item.number}</span>
+                <span className="text-xs tracking-[0.3em] text-[#8a7e6e]">{item.number}</span>
                 <h3 className="text-xl font-light text-[#1a1a1a]">{item.title}</h3>
                 <p className="text-sm text-[#8a7e6e] leading-relaxed font-light">{item.text}</p>
               </div>
@@ -160,7 +160,7 @@ export default function Home() {
             },
           ].map((item) => (
             <div key={item.label} className="bg-[#faf7f2] px-8 py-10 flex flex-col gap-4">
-              <p className="text-xs tracking-[0.3em] uppercase text-[#e0d8cc]">{item.label}</p>
+              <p className="text-xs tracking-[0.3em] uppercase text-[#8a7e6e]">{item.label}</p>
               {item.href ? (
                 <a href={item.href} className="flex flex-col gap-1 group">
                   {item.lines.map((line, i) => (

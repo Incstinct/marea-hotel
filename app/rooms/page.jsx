@@ -32,7 +32,7 @@ export default function Rooms() {
     : rooms.filter((r) => r.type === activeType);
 
   return (
-    <main className="min-h-screen pt-32 pb-24 px-6">
+    <main className="min-h-screen pt-36 pb-24 px-6">
       <div className="max-w-6xl mx-auto">
 
         {/* Header */}

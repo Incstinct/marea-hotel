@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <main className="min-h-screen pt-32 pb-24 px-6">
+    <main className="min-h-screen pt-36 pb-24 px-6">
       <div className="max-w-4xl mx-auto">
 
         {/* Header */}
@@ -91,7 +91,7 @@ export default function About() {
               }
             ].map((value) => (
               <div key={value.number} className="bg-[#faf7f2] p-10 flex flex-col gap-4">
-                <span className="text-xs tracking-[0.3em] text-[#e0d8cc]">{value.number}</span>
+                <span className="text-xs tracking-[0.3em] text-[#8a7e6e]">{value.number}</span>
                 <h3 className="text-xl font-light text-[#1a1a1a]">{value.title}</h3>
                 <p className="text-sm text-[#8a7e6e] leading-relaxed font-light">{value.text}</p>
               </div>

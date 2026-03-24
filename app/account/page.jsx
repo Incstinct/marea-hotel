@@ -101,7 +101,7 @@ export default function Account() {
   }
 
   return (
-    <main className="min-h-screen pt-32 pb-24 px-6 bg-[#faf7f2]">
+    <main className="min-h-screen pt-36 pb-24 px-6 bg-[#faf7f2]">
       <div className="max-w-4xl mx-auto">
 
         {/* Header */}

@@ -23,7 +23,7 @@ export default function Footer() {
 
           {/* Navigation */}
           <div>
-            <p className="text-xs tracking-[0.3em] uppercase text-[#e0d8cc] mb-5">Navigate</p>
+            <p className="text-xs tracking-[0.3em] uppercase text-[#8a7e6e] mb-5">Navigate</p>
             <div className="flex flex-col gap-3">
               {[
                 { href: "/rooms", label: "Rooms" },
@@ -45,7 +45,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <p className="text-xs tracking-[0.3em] uppercase text-[#e0d8cc] mb-5">Find Us</p>
+            <p className="text-xs tracking-[0.3em] uppercase text-[#8a7e6e] mb-5">Find Us</p>
             <div className="flex flex-col gap-3">
               <p className="text-sm text-[#8a7e6e] leading-relaxed">
                 Calle del Mar 14
@@ -65,11 +65,11 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-[#e0d8cc] pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-[#e0d8cc] tracking-wide">
+          <p className="text-xs text-[#8a7e6e] tracking-wide">
             © 2026 Marea. All rights reserved.
           </p>
-          <p className="text-xs text-[#e0d8cc] tracking-wide">
-            Built by <span className="text-[#8a7e6e] hover:text-[#c4845a] transition-colors cursor-pointer">Incstinct X</span>
+          <p className="text-xs text-[#8a7e6e] tracking-wide">
+            Built by <span className="text-[#1a1a1a] hover:text-[#c4845a] transition-colors cursor-pointer">Incstinct X</span>
           </p>
         </div>
 
